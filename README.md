@@ -24,18 +24,40 @@ Smart NexusAI is an intelligent, voice-activated system designed for seamless in
    cd smart_NexusAI_Voice_Activated_AI_System
    ```
 
-3. Install the required dependencies:
+3. Clone the private NexusAI repository:
+   ```bash
+   git clone https://github.com/DawoodTouseef/private-NexusAI
+   ```
+
+4. Follow the instructions in the `README.md` file of the `private-NexusAI` repository to start its application.
+
+5. Install the required dependencies for this application:
    ```bash
    pip install -r requirements.txt
    ```
+
+6. Ensure Docker is installed and running on your system before proceeding.
 
 ---
 
 ## Usage
 
+### Start the Application
 To start the application, run the following command:
 ```bash
 python main.py --start
+```
+
+### Open the GUI
+To open the GUI version of the application, run:
+```bash
+python main.py --gui
+```
+
+### Run Text-Based AI
+To use the text-based AI interpreter, run:
+```bash
+python main.py --interpreter
 ```
 
 ---
@@ -43,6 +65,7 @@ python main.py --start
 ## Requirements
 
 - Python 3.8 or higher
+- Docker installed and running
 - A functional microphone for voice input
 - Internet connection for accessing cloud-based APIs (if applicable)
 
