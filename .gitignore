@@ -1,0 +1,7 @@
+.venv
+.cache
+.env
+credentials.json
+token.json
+SmartHome Nexus.zip
+config
